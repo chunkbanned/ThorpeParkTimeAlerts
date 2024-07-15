@@ -11,9 +11,7 @@ function doCheck() {
         coaster_groups.forEach(coaster_group => {
             let group = coaster_group.rides;
             group.forEach(coaster => {
-                if (coaster.wait_time <= 45) {
-                    message = message + `\n${coaster.name} - **${coaster.wait_time.toString()} min**`;
-                }
+                message = message + `\n${coaster.name} - **${coaster.wait_time.toString()} min**`;
             })
         })
         fetch(webhookUrl,
