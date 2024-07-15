@@ -10,4 +10,4 @@ How to run?
  2. ``cd ThorpeParkTimeAlerts``
  3. ``npm install``
  4. ``Edit app.js with the webhook URL and the user pings (in the format <@discordid>)``
- 5. ``node .``
+ 5. ``node . OR run start.bat (windows only)``
